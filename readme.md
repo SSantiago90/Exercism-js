@@ -1,0 +1,1 @@
+# Master repository containing "Exercism" practices. Check out branches to see every individual excercise code.
