@@ -1,14 +1,14 @@
-//
-// This is only a SKELETON file for the 'Resistor Color Duo' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+//Added resistor-color import from previous exercise
+import { colorCode }  from '../resistor-color/resistor-color';
 
-export const decodedValue = (colArr) => {
-  const colors = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"];
+//Added array destructuring on function parameters
+export const decodedValue = ([color1,color2]) => {
+
+  //reusability of the 'colorCode' function from previous exercise
+  let code1 = colorCode(color1);
+  let code2 = colorCode(color2);
   
-  let code1 =   colors.indexOf(colArr[0].toLowerCase());
-  let code2 =   colors.indexOf(colArr[1].toLowerCase());
-
-  return parseInt(''+code1+code2);
+  // using explicit math and avoid casting to String on return statement
+  return (code1 * 10 + code2);
 };
 
