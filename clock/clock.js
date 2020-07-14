@@ -5,12 +5,12 @@ export class Clock {
       this.minutes =  Math.floor(min);    
       //Helper function to assure values are valid 
       this.checkLimits();
-      let helperStr = '00:00';
-
       return this;
     }
 
     toString() {
+      // This implementation could be improved using String.prototype.padStart();
+      // But i wanted to solve it without googling, so I'll leave it like it is
       let helperH = '', helperM = '';
       if (this.minutes < 10) helperM = '0';
       if (this.hours < 10) helperH = '0';
@@ -32,10 +32,7 @@ export class Clock {
     }
 
     equals(clock) {
-      if ((this.hours == clock.hours) && (this.minutes == clock.minutes))
-        return true;
-      else
-        return false;
+      return ((this.hours == clock.hours) && (this.minutes == clock.minutes));
     }
 
     checkLimits(){
