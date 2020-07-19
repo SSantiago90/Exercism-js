@@ -26,6 +26,7 @@
     ]
   },
   "scripts": {
+    "start" : "babel/node ./prueba.mjs",
     "test": "jest --no-cache ./*",
     "watch": "jest --no-cache --watch ./*",
     "lint": "eslint .",
