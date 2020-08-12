@@ -18,3 +18,7 @@ Repository containing "Exercism" practices. Check out branches to see every indi
 	- [Hamming](https://github.com/SSantiago90/Exercism-js/tree/Hamming)
 	- [ETL](https://github.com/SSantiago90/Exercism-js/tree/etl)
 	- [Scrabble Score](https://github.com/SSantiago90/Exercism-js/tree/scrabble-score)
+	- [Raindrops](https://github.com/SSantiago90/Exercism-js/tree/raindrops)
+	- [Allergies](https://github.com/SSantiago90/Exercism-js/tree/allergies)
+	- [Nucleotide Count](https://github.com/SSantiago90/Exercism-js/tree/nucleotide-count)
+- 6. - [Space Age](https://github.com/SSantiago90/Exercism-js/tree/space-age)
